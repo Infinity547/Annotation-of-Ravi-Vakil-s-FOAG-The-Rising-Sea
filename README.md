@@ -1,0 +1,2 @@
+# Annotation-of-Ravi-Vakil-s-FOAG-The-Rising-Sea
+These are the notes and exercise solutions I've written while reading Ravi Vakil's FOAG (I will keep updating). For easier reading, I've also transcribed the content that was originally included in FOAG. My level is quite basic, so there are bound to be errors in the exercise solutions. If you spot any issues, feel free to provide feedback.
