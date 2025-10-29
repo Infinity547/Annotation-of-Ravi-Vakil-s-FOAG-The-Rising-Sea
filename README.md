@@ -6,5 +6,5 @@ Current progress:
 2. Starred subsection: 10.5.5 Proof of Hard fact 10.5.3
 
 Next update: 
-Section 12.1 Dimension and codimension
-Section 14.1 Vector bundles "=" locally free sheaves
+1. Section 12.1 Dimension and codimension
+2. Section 14.1 Vector bundles "=" locally free sheaves
