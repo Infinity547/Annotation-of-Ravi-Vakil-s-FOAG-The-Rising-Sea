@@ -1,6 +1,10 @@
 # Annotation-of-Ravi-Vakil's-FOAG-The-Rising-Sea
 These are the notes and exercise solutions I've written while reading Ravi Vakil's FOAG (I will keep updating). For easier reading, I've also transcribed the content that was originally included in FOAG. I didn't do the double-starred exercises, and I didn't read the double-starred sections, but I've completed almost all the rest. My level is quite basic, so there are bound to be errors in the exercise solutions. If you spot any issues, feel free to provide feedback, you can reach me at this email address: 1827558947@qq.com.
 
-Current progress: Section 11.3 The locus where two morphisms from X to Y agree, and the "Reduced-to-Separated" Theorem.
+Current progress: 
+1. Section 11.4 Proper morphisms
+2. Starred subsection: 10.5.5 Proof of Hard fact 10.5.3
 
-Next update: Section 11.4 Proper morphisms
+Next update: 
+Section 12.1 Dimension and codimension
+Section 14.1 Vector bundles "=" locally free sheaves
