@@ -5,3 +5,4 @@ Current progress: Section 14.1 Vector bundles "=" locally free sheaves
 
 Next update: Section 12.1 Dimension and codimension
 
+This may be a good book to get started: https://www.uio.no/studier/emner/matnat/math/MAT4215/data/masteragbook.pdf
