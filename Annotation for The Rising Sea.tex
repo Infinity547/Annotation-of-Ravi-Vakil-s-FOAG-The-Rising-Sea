@@ -1,0 +1,159 @@
+\documentclass[11pt, mode=fancy, section, bibend=bibtex]{elegantbook}
+
+%package
+\usepackage{tikz-cd}
+\usepackage{circuitikz}
+\usepackage{indentfirst}
+\usepackage[cal=esstix]{mathalpha}
+\usepackage{quiver}%画图
+\usetikzlibrary{decorations.pathmorphing}%画图
+\usepackage{CJKutf8}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{leftidx}
+
+%tab
+\setlength{\parindent}{2em}
+
+%Calligraphy
+\input{letterfonts}
+\newcommand{\nil}{\mathfrak{N}}%nilradical
+
+%maps
+\DeclareMathOperator{\im}{Im}
+\let\oldker\ker
+\renewcommand{\ker}{\operatorname{Ker}}
+\DeclareMathOperator{\pshKer}{Ker_{\mathrm{pre}}}
+\DeclareMathOperator{\Coker}{Coker}
+\DeclareMathOperator{\pshCoker}{Coker_{\mathrm{pre}}}
+\DeclareMathOperator{\Mor}{Mor}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\SHom}{\mathcal{Hom}}
+\DeclareMathOperator{\Nat}{Nat}
+\DeclareMathOperator{\obj}{obj}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\ord}{ord}
+\DeclareMathOperator{\rk}{rank}
+\DeclareMathOperator{\pr}{pr}
+\DeclareMathOperator{\res}{res}
+\DeclareMathOperator{\ind}{Ind}
+\DeclareMathOperator{\ch}{char}
+\DeclareMathOperator{\spec}{Spec}%spectrum
+\DeclareMathOperator{\proj}{Proj}
+\DeclareMathOperator{\Max}{Max}%maximal ideal
+\DeclareMathOperator{\supp}{Supp}
+\DeclareMathOperator{\Span}{Span}
+\DeclareMathOperator{\trdeg}{tr.deg}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\Div}{Div}
+\DeclareMathOperator{\Ht}{ht} % height
+\DeclareMathOperator{\codim}{codim}
+\DeclareMathOperator{\caclg}{CaCl}
+\let\olddiv\div
+\renewcommand{\div}{\operatorname{div}} % principal divisor
+\DeclareMathOperator{\colim}{colim}
+\DeclareMathOperator{\cls}{cls}
+\DeclareMathOperator{\sh}{sh}
+\DeclareMathOperator{\gal}{Gal}
+\DeclareMathOperator{\ann}{Ann}
+\DeclareMathOperator{\sym}{Sym}
+\DeclareMathOperator{\cl}{cl} %closure
+\DeclareMathOperator{\clg}{Cl} %class group
+\DeclareMathOperator{\Frac}{Frac}
+\DeclareMathOperator{\cov}{Cov} %coverings of category
+\DeclareMathOperator{\ass}{Ass}%associated point
+\DeclareMathOperator{\op}{op}
+\DeclareMathOperator{\adj}{adj}
+\DeclareMathOperator{\rad}{rad}
+\DeclareMathOperator{\red}{red}% reduction
+\DeclareMathOperator{\val}{val}
+\DeclareMathOperator{\Res}{Res}% resultant
+\DeclareMathOperator{\shann}{\mathscr{A}nn}
+\DeclareMathOperator{\bl}{Bl}% Blow up
+\DeclareMathOperator{\bark}{\overline{k}}% algebraically closed field
+\DeclareMathOperator{\intcl}{Int.cl}
+\DeclareMathOperator{\Eq}{Eq} % equalizer
+\DeclareMathOperator{\Coeq}{Coeq} % Coequalizer
+\DeclareMathOperator{\pic}{Pic} % Picard group
+\DeclareMathOperator{\tor}{Tor} % torsion
+
+%Category
+\DeclareMathOperator{\sets}{\mathbf{Sets}}
+\DeclareMathOperator{\vect}{\mathbf{Vec}}
+\DeclareMathOperator{\auto}{Aut}
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\Ab}{\mathbf{Ab}}
+\DeclareMathOperator{\Mod}{\mathbf{Mod}}
+\DeclareMathOperator{\Rings}{\mathbf{Rings}}
+\DeclareMathOperator{\Top}{\mathbf{Top}}
+\DeclareMathOperator{\fdvect}{\mathbf{f.d.Vec}}
+\DeclareMathOperator{\Com}{\mathbf{Com}}
+\DeclareMathOperator{\psh}{\mathbf{PSh}}
+\DeclareMathOperator{\Sh}{\mathbf{Sh}}
+\DeclareMathOperator{\qcoh}{\mathbf{QCoh}}
+\DeclareMathOperator{\coh}{\mathbf{Coh}}
+\DeclareMathOperator{\sch}{\mathbf{Sch}}
+\DeclareMathOperator{\affsch}{\mathbf{Aff.Sch}}
+
+\title{Annotations for Ravi Vakil's The Rising Sea}
+\subtitle{Foundations of Algebraic Geometry}
+
+\author{SiQi Wu}
+\date{February, 2025}
+
+\logo{logo.JPG}
+\cover{cover.JPG}
+
+% modify the color in the middle of titlepage
+\definecolor{customcolor}{RGB}{147,181,207}
+\colorlet{coverlinecolor}{customcolor}
+\usepackage{cprotect}
+
+\addbibresource[location=local]{reference.bib} % bib
+
+\begin{document}
+
+\maketitle
+
+\frontmatter
+\tableofcontents
+
+\mainmatter
+
+\part{Backgroud and conventions}
+\include{./TeX_files/chapter01}
+
+\part{Preliminaries}
+\include{./TeX_files/chapter02}
+\include{./TeX_files/chapter03}
+
+\part{Schemes}
+\include{./TeX_files/chapter04}
+\include{./TeX_files/chapter05}
+\include{./TeX_files/chapter06}
+\include{./TeX_files/chapter07}
+
+\part{Morphisms of schemes}
+\include{./TeX_files/chapter08}
+\include{./TeX_files/chapter09}
+\include{./TeX_files/chapter10}
+\include{./TeX_files/chapter11}
+\include{./TeX_files/chapter12}
+
+\part{``Geometric" properties of schemes}
+\include{./TeX_files/chapter13}
+\include{./TeX_files/chapter14}
+
+\part{Quasicoherent sheaves on schemes, and their uses}
+\include{./TeX_files/chapter15}
+\include{./TeX_files/chapter16}
+
+\part{More cohomological tools}
+
+%\appendix
+%\include{./TeX_files/Appendix}
+
+\nocite{*}
+\printbibliography[heading=bibintoc, title=\ebibname]
+
+\end{document}                             
