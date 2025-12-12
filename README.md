@@ -6,5 +6,3 @@ Current progress: Section 12.3 Krull's Theorem.
 Next update: Section 12.4 Dimensions of fibers of morphisms of varieties.
 
 This may be a good book to get started: https://www.uio.no/studier/emner/matnat/math/MAT4215/data/masteragbook.pdf
-
-If you want to see something about divisors, you can see my note "PAG.pdf".
